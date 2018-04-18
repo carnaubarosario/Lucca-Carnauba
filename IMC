@@ -1,0 +1,17 @@
+print("o melhor calculador de imc do mundo!")
+
+
+x = (int (input("Digite o peso da pessoa: ")))
+y = (float (input("Digite a altura da pessoa: ")))
+
+IMC = x / pow(y, 2)
+
+IMCInteiro = int(IMC)
+
+print("O imc do individuo eh: ", IMC)
+
+print("O imc inteiro eh: ", IMCInteiro)
+
+
+
+

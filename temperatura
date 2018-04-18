@@ -1,0 +1,23 @@
+x = (input("Escolha uma escala de temperatura: "))
+y = (int (input("Digite a temperatura: ")))
+
+temperaturaK =  int(((y - 32) / 1.8) + 273)
+
+if x == 'farenheit':
+   temperaturaCs = (y - 32) / 1.8
+	
+   print("A temperatura em celsius eh: ", temperaturaCs) 		       				
+	
+if x == 'celsius':
+   temperaturaFr = int(1.8 * y + 32)
+
+   print("A temperatura em farenheit eh : ", temperaturaFr) 
+
+print("A temperatura em kelvin eh: ", temperaturaK) 
+
+ 	    
+
+
+
+	
+	
