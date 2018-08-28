@@ -1,7 +1,7 @@
 x = (input("Escolha uma escala de temperatura: "))
 y = (int (input("Digite a temperatura: ")))
 
-temperaturaK =  int(((y - 32) / 1.8) + 273)
+temperaturaK =  int(((y - 32) / 1.8) + 273))
 
 if x == 'farenheit':
    temperaturaCs = (y - 32) / 1.8
